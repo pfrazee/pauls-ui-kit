@@ -1,0 +1,34 @@
+.form-group {
+  margin-bottom: 1em;
+  line-height: 2;
+}
+
+.form-group.inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-group label,
+.form-group input {
+  display: block;
+}
+
+.form-group.inline label,
+.form-group.inline input {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.form-group input {
+  padding: 6px 10px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  font-size: 0.8em;
+}
+
+.form-group textarea {
+  padding: 6px 10px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  font-size: 0.8em;
+}

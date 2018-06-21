@@ -1,0 +1,27 @@
+html {
+  font-family: 'Inter UI', sans-serif;
+}
+
+.text {
+  color: var(--text-color);
+}
+
+.text.green {
+  --text-color: green;
+}
+
+.text.red {
+  --text-color: red;
+}
+
+.text.blue {
+  --text-color: blue;
+}
+
+.text.orange {
+  --text-color: orange;
+}
+
+.text.gray {
+  --text-color: gray;
+}

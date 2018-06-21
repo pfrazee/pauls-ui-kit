@@ -1,0 +1,18 @@
+section header {
+  padding: 6px 10px;
+  background: #eee;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+section.bordered {
+  border: 1px solid #ccc;
+}
+
+section.bordered header {
+  border-top: 0;
+}
+
+section.padded main {
+  padding: 0 10px;
+}
